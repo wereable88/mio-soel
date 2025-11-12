@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f6f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profil-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            width: 320px;
+            transition: transform 0.3s ease;
+        }
+
+        .profil-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profil-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #3498db;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .profil-card h2 {
+            color: #2c3e50;
+            margin: 10px 0 5px;
+        }
+
+        .profil-card h4 {
+            color: #3498db;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .profil-card p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .profil-card .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .profil-card .social {
+            margin-top: 15px;
+        }
+
+        .profil-card .social a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            margin: 0 8px;
+            transition: color 0.2s ease;
+        }
+
+        .profil-card .social a:hover {
+            color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profil-card">
+        <img src="wayangg.png" alt="Foto Profil">
+        <h2>SATRIA</h2>
+        <h4>Mahasiswa Ilmu Komunikasi</h4>
+        <p>
+            Saya adalah seorang <span class="highlight">mahasiswa</span> yang tertarik pada dunia 
+            media, jurnalistik, dan komunikasi digital. Saya suka menulis artikel sosial dan 
+            mengamati perubahan moralitas di era teknologi modern.
+        </p>
+        <div class="social">
+            <a href="#">Instagram</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="#">Email</a>
+        </div>
+    </div>
+
+</body>
+</html>
